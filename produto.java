@@ -23,4 +23,17 @@ public class produto {
         return id;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+    
+
 }
