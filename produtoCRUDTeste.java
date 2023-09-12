@@ -24,4 +24,8 @@ public class produtoCRUDTeste {
         }
     }
 
+    public void remover(produto produto) {
+        produtos.remove(produto);
+    }
+
 }
